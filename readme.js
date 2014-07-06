@@ -41,7 +41,7 @@ easyBot.roleta = {
 
 Bot.admins =["538dfdf1877b923a7f1618b8"];
 
-var botname = "easyBot";
+var botname = "HospedeiroJR";
 
 ////////////////////////////////////////////////////////////////////////////////
 API.sendChat(botname +" está ativo, use a função !comandos para ver os comandos do bot! :warning:");
@@ -882,7 +882,7 @@ var message = "";
 	var ID = data.fromID;
 	var argname = arg1.slice(1, arg1.length);
 	var userid = getUserID(argname);
-
+	
 if (cmd == "!add")
 if(API.getUser(ID).permission > 1 || Bot.admins.indexOf(ID) > -1){
 if (userid == null) {}else{
