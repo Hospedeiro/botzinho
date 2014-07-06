@@ -2,7 +2,7 @@
 /// Bot feito por -Psyko-Matt-                                                                                                  
 /// Edições e alguns comandos foram feitos por mim -TheMars                                              
 ///////////////////////////////////////////////////////////////////////////////////
-Hospedeirobot = {
+easyBot = {
 comandoslink: "http://goo.gl/Koy0Fe",
 contatolink: "http://goo.gl/9DowgB",
 awlink: "http://goo.gl/naCPwx",
@@ -882,7 +882,7 @@ var message = "";
 	var ID = data.fromID;
 	var argname = arg1.slice(1, arg1.length);
 	var userid = getUserID(argname);
-	
+
 if (cmd == "!add")
 if(API.getUser(ID).permission > 1 || Bot.admins.indexOf(ID) > -1){
 if (userid == null) {}else{
