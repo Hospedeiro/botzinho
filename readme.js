@@ -2,7 +2,7 @@
 /// Bot feito por -Psyko-Matt-                                                                                                  
 /// Edições e alguns comandos foram feitos por mim -TheMars                                              
 ///////////////////////////////////////////////////////////////////////////////////
-easyBot = {
+Hospedeirobot = {
 comandoslink: "http://goo.gl/Koy0Fe",
 contatolink: "http://goo.gl/9DowgB",
 awlink: "http://goo.gl/naCPwx",
